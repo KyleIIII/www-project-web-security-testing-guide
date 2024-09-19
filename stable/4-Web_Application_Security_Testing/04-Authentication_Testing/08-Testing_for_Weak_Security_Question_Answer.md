@@ -17,7 +17,7 @@ tags: WSTG
 
 Often called "secret" questions and answers, security questions and answers are often used to recover forgotten passwords (see [Testing for weak password change or reset functionalities](09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.md), or as extra security on top of the password.
 
-They are typically generated upon account creation and require the user to select from some pre-generated questions and supply an appropriate answer. They may allow the user to generate their own question and answer pairs. Both methods are prone to insecurities.Ideally, security questions should generate answers that are only known by the user, and not guessable or discoverable by anybody else. This is harder than it sounds.
+They are typically generated upon account creation and require the user to select from some pre-generated questions and supply an appropriate answer. They may allow the user to generate their own question and answer pairs. Both methods are prone to insecurities. Ideally, security questions should generate answers that are only known by the user, and not guessable or discoverable by anybody else. This is harder than it sounds.
 Security questions and answers rely on the secrecy of the answer. Questions and answers should be chosen so that the answers are only known by the account holder. However, although a lot of answers may not be publicly known, most of the questions that websites implement promote answers that are pseudo-private.
 
 ### Pre-generated Questions
@@ -62,7 +62,7 @@ The next step is to assess the strength of the security questions. Could the ans
 
 - Does the application allow the end user to choose the question that needs to be answered? If so, focus on questions which have:
 
-  - A "public" answer; for example, something that could be find with a simple search-engine query.
+  - A "public" answer; for example, something that could be found with a simple search-engine query.
   - A factual answer such as a "first school" or other facts which can be looked up.
   - Few possible answers, such as "what model was your first car". These questions would present the attacker with a short list of possible answers, and based on statistics the attacker could rank answers from most to least likely.
 
